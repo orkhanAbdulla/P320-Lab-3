@@ -12,52 +12,47 @@ namespace LAB_3
 
             //Task-1
 
-            //Calculator
-            //Console.WriteLine("Input-1:");
-            //int num1 = Convert.ToInt32(Console.ReadLine());
-            //Console.WriteLine("Operator: + - * /");
-            //char opr = Convert.ToChar(Console.ReadLine());
-            //Console.WriteLine("Input-2:");
-            //int num2 = Convert.ToInt32(Console.ReadLine());
-            //Calc(num1, opr, num2);
+            Calculator
+            Console.WriteLine("Input-1:");
+            int num1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Operator: + - * /");
+            char opr = Convert.ToChar(Console.ReadLine());
+            Console.WriteLine("Input-2:");
+            int num2 = Convert.ToInt32(Console.ReadLine());
+            Calc(num1, opr, num2);
 
             //Task-2
-            //Console.WriteLine(ReplaceChar("Salam Baki"));
+            Console.WriteLine(ReplaceChar("Salam Baki"));
 
             //Task-3 
 
-            //int[] numArr = { 1, 5, 8, 4, 6, 12 };
-            //AddToArray(ref numArr, 58);
-            //foreach (var item in numArr)
-            //{
-            //    Console.WriteLine(item);
-            //}
-            ////Task-4
-            ///
-            //int[] numbers = { 5, 10, 27, 92, 14, 17, 58, 35, 14 };
-            //ChangeToEven(ref numbers);
-            //foreach (var item in numbers)
-            //{
-            //    Console.WriteLine(item);
-            //}
+            int[] numArr = { 1, 5, 8, 4, 6, 12 };
+            AddToArray(ref numArr, 58);
+            foreach (var item in numArr)
+            {
+                Console.WriteLine(item);
+            }
+            //Task-4
+            /
+            int[] numbers = { 5, 10, 27, 92, 14, 17, 58, 35, 14 };
+            ChangeToEven(ref numbers);
+            foreach (var item in numbers)
+            {
+                Console.WriteLine(item);
+            }
 
             //Task-5
 
-            //string[] fullName = { "Orkhan Abdullayev", "Tebriz Guliyev", "Agha Hasanli" };
-            //string[]names=MakeNamesArr(fullName);
-            //foreach (var item in names)
-            //{
-            //    Console.WriteLine(item);
-            //}
+            string[] fullName = { "Orkhan Abdullayev", "Tebriz Guliyev", "Agha Hasanli" };
+            string[] names = MakeNamesArr(fullName);
+            foreach (var item in names)
+            {
+                Console.WriteLine(item);
+            }
             #endregion
-        
+
         }
-
-        static void ChangeArray(ref int[] arr)
-        {
-
-
-            #region Lab-3
+        #region Lab-3
             //Task - 1
             static int Calc(int num1, char opr, int num2)
             {
@@ -129,6 +124,6 @@ namespace LAB_3
 
 
             #endregion
-        }
+        
     }
 }
